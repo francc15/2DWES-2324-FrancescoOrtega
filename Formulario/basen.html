@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Bases</title>
+</head>
+<body>
+    <h1>Conversor de Bases</h1>
+    <form action="basen.php" method="post">
+        <label for="numero">Numero:</label>
+        <input type="text" name="numero" id="numero" required><br><br>
+
+        <label for="baseOrigen">Base de Origen:</label>
+        <select name="baseOrigen" id="baseOrigen">
+            <option value="2">Binario</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+            <option value="16">Hexadecimal</option>
+        </select><br><br>
+
+        <label for="baseDestino">Base de Destino:</label>
+        <select name="baseDestino" id="baseDestino">
+            <option value="2">Binario</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+            <option value="16">Hexadecimal</option>
+        </select><br><br>
+
+        <input type="submit" value="Convertir">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>

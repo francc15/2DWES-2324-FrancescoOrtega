@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Conversor de Bases</title>
+</head>
+<body>
+    <h1>Conversor de Bases</h1>
+    <form action="cambiobase.php" method="post">
+        <label for="decimal">Numero Decimal:</label>
+        <input type="text" name="decimal" id="decimal" required><br><br>
+
+        <label>Elija la base:</label><br>
+        <input type="radio" name="base" value="16" id="hexadecimal" required>
+        <label for="hexadecimal">Hexadecimal</label><br>
+
+        <input type="radio" name="base" value="2" id="binario">
+        <label for="binario">Binario</label><br>
+
+        <input type="radio" name="base" value="8" id="octal">
+        <label for="octal">Octal</label><br>
+
+        <input type="radio" name="base" value="10" id="decimal" checked>
+        <label for="decimal">Decimal</label><br><br>
+
+        <input type="submit" value="Convertir">
+        <input type="reset" value="Borrar">
+    </form>
+</body>
+</html>
+

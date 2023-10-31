@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formulario de Datos</title>
+</head>
+<body>
+    <form action="datos.php" method="post">
+        <label for="nombre">Nombre (obligatorio):</label>
+        <input type="text" name="nombre" id="nombre" required>
+        <br>
+
+        <label for="apellido1">Primer Apellido:</label>
+        <input type="text" name="apellido1" id="apellido1">
+        <br>
+
+        <label for="apellido2">Segundo Apellido:</label>
+        <input type="text" name="apellido2" id="apellido2">
+        <br>
+
+        <label for="email">Email (obligatorio):</label>
+        <input type="email" name="email" id="email" required>
+        <br>
+
+        <label for="sexo">Sexo (obligatorio):</label>
+        <select name="sexo" id="sexo" required>
+            <option value="Masculino">Masculino</option>
+            <option value="Femenino">Femenino</option>
+        </select>
+        <br>
+
+        <input type="submit" value="Guardar Datos">
+    </form>
+</body>
+</html>
+
